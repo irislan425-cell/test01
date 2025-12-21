@@ -48,7 +48,7 @@ content:
         - name: Google翻译
           description: 谷歌翻译
           url: https://translate.google.com/
-       - name: 沉浸翻译
+        - name: 沉浸翻译
           description: 文字翻译，AI网页翻译、PDF 翻译、视频字幕翻译，适用于多种浏览器
           url: https://immersivetranslate.com/zh-Hans/translate/   
         - name: DeepL翻译
