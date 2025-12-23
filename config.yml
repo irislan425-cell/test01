@@ -61,23 +61,41 @@ content:
           description: 百度翻译
           url: https://fanyi.baidu.com/
     - name: 独立站
-      sites:
-        - name: 服务器选择      
-          - name: siteground
-            description: Wordpress官方推荐服务器，高端/专业级托管
-            url: https://world.siteground.com/
-          - name: Hostinger 主机
-            description: 一款大众使用较多的主机，高性价比/入门级托管
-            url: https://www.hostinger.com/
-          - name: Cloudways
-            description: Cloudways 建站常用主机之一
-            url: https://www.cloudways.com/
-          - name: 阿里云
-            description: 阿里云服务器，如果做海外市场建议选择海外服务器
-            url: https://www.aliyun.com/
-          - name: 腾讯云
-            description: 腾讯云服务器，如果做海外市场建议选择海外服务器
-            url: https://cloud.tencent.com/
+      subcategories:
+        - name: 服务器选择
+          sites:
+            - name: siteground
+              description: Wordpress官方推荐服务器，高端/专业级托管
+              url: https://world.siteground.com/
+            - name: Hostinger 主机
+              description: 一款大众使用较多的主机，高性价比/入门级托管
+              url: https://www.hostinger.com/
+            - name: Cloudways
+              description: Cloudways 建站常用主机之一
+              url: https://www.cloudways.com/
+            - name: 阿里云
+              description: 阿里云服务器，如果做海外市场建议选择海外服务器
+              url: https://www.aliyun.com/
+            - name: 腾讯云
+              description: 腾讯云服务器，如果做海外市场建议选择海外服务器
+              url: https://cloud.tencent.com/
+        - name: 建站
+          sites:
+            - name: WordPress
+              description: 一款常用的免费、开源的建站系统
+              url: https://wordpress.org/
+            - name: Wordpress主题市场
+              description: 海量Wordpress主题可供选择
+              url: https://wordpress.com/themes
+            - name: 免费WP主题 - WP模板牛
+              description: 免费的WordPress主题模板分享
+              url: https://www.wpniu.com/themes
+            - name: Shopify官网
+              description: Shopify官方网站，仅需注册一个账号即可部署自己的独立站，非常适合新手
+              url: https://www.shopify.com/
+            - name: 奶爸建站笔记
+              description: WP教程 建站 SEO博客学习
+              url: https://blog.naibabiji.com/
     - name: 图标素材
       sites:
         - name: Iconfinder
